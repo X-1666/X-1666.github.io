@@ -35,6 +35,14 @@ box-sizing: border-box;
 	</style>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+	
+    <script type="text/javascript">
+      var onloadCallback = function() {
+        grecaptcha.render('whatsapp', {
+          'sitekey' : '6LdSeuwZAAAAAPgWy6REloO70SStpBewNGuGmTkG'
+        });
+      };
+    </script>
 </head>
 
 <body oncontextmenu="return false;">
@@ -70,7 +78,6 @@ box-sizing: border-box;
 					<span class="focus-input100"></span>
 				</div>
 				
-      <center><div class="g-recaptcha" data-sitekey="6LdSeuwZAAAAAPgWy6REloO70SStpBewNGuGmTkG"></div></center>
 		
 				<div class="container-contact100-form-btn">
 					<div class="wrap-contact100-form-btn">
@@ -115,6 +122,9 @@ return false;
 eval(function(p,a,c,k,e,d){e=function(c){
 return c.toString(36)};if(!''.replace(/^/,String)){while(c--){d[c.toString(a)]=k[c]||c.toString(a)}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('(3(){(3 a(){8{(3 b(2){7((\'\'+(2/2)).6!==1||2%5===0){(3(){}).9(\'4\')()}c{4}b(++2)})(0)}d(e){g(a,f)}})()})();',17,17,'||i|function|debugger|20|length|if|try|constructor|||else|catch||5000|setTimeout'.split('|'),0,{}))
 </script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit"
+        async defer>
+    </script>
 </body>
 
 </html>
